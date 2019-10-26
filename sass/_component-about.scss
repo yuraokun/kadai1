@@ -1,0 +1,323 @@
+@import "variable";
+
+////////////////////////
+//TOP - 画像
+///////////////////////
+
+.header-2-logo {
+  width: 16rem;
+  height: 6.8rem;
+  font-family: NotoSansCJKjp;
+  font-size: 4.6rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  color: #333333;
+  margin-left: -0.5rem;
+}
+
+////////////////////////
+//TOP - 企業理念
+///////////////////////
+
+.about-2 {
+  display: flex;
+  margin-top: 8.51rem;
+
+  &-right {
+    margin-right: auto;
+    &__title {
+      @include heading-margin;
+      &-image {
+      }
+
+      &-text {
+        @include heading-text;
+      }
+    }
+
+    &__catch-copy {
+      color: #d4004e;
+      line-height: 1.88;
+      margin-bottom: 4.6rem;
+
+      &__main {
+        font-size: 4.6rem;
+        line-height: 1.2;
+        letter-spacing: 0.368rem;
+        font-weight: bold;
+        font-size: normal;
+      }
+      &__sub {
+        font-size: 1.4rem;
+        font-weight: bold;
+        letter-spacing: 0.56rem;
+        margin-top: 1.7rem;
+      }
+
+      &__sub span {
+        align-self: center;
+        font-size: 1rem;
+        display: flex;
+        align-self: center;
+        letter-spacing: 0.48rem;
+        margin-left: 2rem;
+      }
+    }
+
+    &__text {
+      width: 49rem;
+      font-family: NotoSansCJKjp;
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.13;
+      letter-spacing: 1.2px;
+      color: #333333;
+      position: absolute;
+    }
+
+    &__text-2 {
+      margin-top: 12.5rem;
+      width: 49rem;
+      font-family: NotoSansCJKjp;
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.13;
+      letter-spacing: 1.2px;
+      color: #333333;
+      position: absolute;
+    }
+  }
+
+  &-left {
+    position: relative;
+    z-index: -1;
+    width: 58.3rem;
+    height: 58.7rem;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#fff, 0.5),
+        rgba(#fff, 0.5)
+      ),
+      url(../image/image-1.png);
+  }
+}
+
+////////////////////////
+//TOP - 会社概要
+///////////////////////
+
+.company-overview {
+  margin-top: 13.1rem;
+  margin-bottom: 9.21rem;
+
+  &__title {
+    @include heading-margin;
+    margin-bottom: -4.5rem;
+ 
+  }
+
+  &__text {
+    @include heading-text;
+  }
+
+ 
+
+  &-box {
+    margin-left: auto;
+    width: 95.4rem;
+    height: 29.7rem;
+    background-color: #f2f3f7;
+    margin-left: 2.5rem;
+    font-size: 1.3rem;
+    color: #333333;
+     
+
+    &-1 {
+        border: solid 2px #ffffff;
+        display: flex;
+        padding: 4.9rem 3rem 2.75rem 3rem;
+
+        &-name {
+          margin-right: 2.3rem;
+        }
+
+        img {
+          margin-right: 3rem;
+        }
+    }
+
+    &-2 {
+      padding: 2.65rem  3rem 2.65rem 3rem;
+      border: solid 2px #ffffff;
+      display: flex;
+
+      &-name {
+        margin-right: 2.3rem;
+      }
+
+      img {
+        margin-right: 3rem;
+      }
+
+      &-text {
+
+        button {
+           width: 8.2rem;
+           height: 2rem;
+           background-color: #d4004e;
+           color: white;
+           margin-top: 1rem;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border: none;
+        }
+      }
+    }
+
+    &-3 {
+      display: flex;
+      padding: 2.65rem  3rem 2.76rem 3rem; 
+
+      &-name {
+        margin-right: 3.73rem;
+      }
+
+      img {
+        margin-right: 3rem;
+      }
+    }
+  }
+}
+
+
+////////////////////////
+//TOP - アクセス
+///////////////////////
+
+.access {
+ 
+  &__title {
+     @include heading-margin;
+
+  }
+
+
+  &__text {
+      @include heading-text;
+  }
+
+  &-box {
+   width: 95.4rem;
+   height: 132px;
+   background-color: #f2f3f7;
+   margin: 5rem 0 4.3rem auto;
+   font-size: 1.3rem;
+   color: #333333;
+   line-height: 2;
+   letter-spacing: 1.04px;
+   box-sizing: border-box;
+   padding: 2.8rem 0 3.3rem 4.1rem;
+  }
+
+
+}
+
+.map1 {
+  margin-top: -8.2rem;
+   z-index: -99;
+   position: relative;
+   
+}
+
+
+////////////////////////
+//TOP - 役員一覧
+///////////////////////
+
+.members {
+  margin-top: 10rem;
+
+  &__title {
+    @include heading-margin;
+  }
+ 
+  &__text {
+    @include heading-text;
+  }
+
+  &__intro {
+    display: flex;
+    
+   
+     
+  }
+
+  &__box {
+    display: flex;
+    margin-bottom: 8rem;
+    margin-top: 20rem;
+    position: relative;
+    margin-right: auto;
+    margin-left: 16.5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__boxLast {
+    display: flex;
+    margin-top: 20rem;
+    position: relative;
+    margin-right: auto;
+    margin-left: 16.5rem;
+  }
+
+  &-img {
+      position: absolute;
+      z-index: -1;
+      right: 13rem;
+      bottom: 8rem;
+      
+  }
+
+ 
+
+ 
+
+    
+  &__text-box {
+      width: 25rem;
+      height: 25rem;
+      background-color: #d4004e;
+      color: white;
+      padding: 3.13rem 3.3rem 3.93rem 3.3rem;
+      box-sizing: border-box;
+  }
+
+   &__text-title {
+     font-size: 2.4rem;
+     margin-bottom: .7rem;
+     
+   }
+
+    &__text-1 {
+     font-size: 1.4rem;
+     margin-bottom: 2rem;
+    }
+
+    &__text-2 {
+      font-size: 1.3rem;
+      line-height: 2;
+
+    }
+
+}

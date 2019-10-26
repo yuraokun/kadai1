@@ -1,0 +1,41 @@
+.left-side-mg {
+  margin-left: 5rem !important;
+}
+
+.left-side-mg-md {
+  margin-left: 15rem !important;
+}
+
+.mg-bottom {
+  margin-bottom: 8.7rem;
+}
+
+.active {
+  color:  #d4004e !important;
+}
+
+
+
+@mixin heading-margin($mg-b: 4rem) {
+  display: flex;
+  margin-bottom: $mg-b;
+}
+@mixin heading-text($fonts: 3.8rem, $mt: -1.5rem, $ml: 3rem) {
+  font-size: $fonts;
+  letter-spacing: normal;
+  color: #333333;
+  margin: $mt 0 0 $ml;
+}
+
+@mixin button($wd: 15.71rem, $hei: 3.58rem, $bg:  #d4004e,  $pad: 1rem,$just: flex-end) {
+  width:  $wd;
+  height: $hei;
+  background-color: $bg;
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: $just;
+  align-items: center;
+  padding-right: $pad;
+}
+

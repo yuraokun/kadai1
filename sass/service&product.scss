@@ -1,0 +1,139 @@
+@import 'variable';
+
+////////////////////////
+//service & product
+///////////////////////
+
+
+
+.service-product-title {
+  font-size: 4.6rem;
+  color: #333333;
+  font-weight: bold;
+}
+
+.serviceProduct {
+  padding-top: 12.4rem;
+
+  .companiesBox {
+    position: relative;
+    margin-bottom: 22.6rem;
+      &-titles {
+      @include heading-margin(2.6rem);
+
+        & img.image1 {
+          height: 100%;
+        }
+
+        & img.image2 {
+          margin: -2.5rem 7rem 0 0; 
+            width: 220px;
+        }
+        & img.image3 {
+           margin: -2.5rem 7rem 0 0; 
+            width: 220px;
+        }
+
+         & img.image4 {
+             margin: -0.5rem 15rem 0 0; 
+            width: 90px;
+            height: 35px;
+         }
+      
+        & h2 {
+          @include heading-text(2.6rem, -0.8rem, 4.5rem);
+          margin-right: auto;
+        }
+      }
+      &-intro {
+      width: 54.1rem;
+      height: 47.8rem;
+      background-color: #f2f3f7;
+      margin-top: -8.5rem;
+      margin-left: 3rem;
+      box-sizing: border-box;
+      padding: 9.1rem 0 0 6.4rem;
+      color: #333333;
+      font-weight: bold;
+
+        & p {
+          font-size: 1.4rem;
+          line-height: 2.86;
+          letter-spacing: 1px;
+          margin-bottom: 8.3rem;
+        }
+
+     
+
+      }
+      &-intro2 {
+        @extend .companiesBox-intro;
+        height: 29.9rem;
+        margin-bottom: 37rem;
+      }
+
+        &-links {
+          display: flex;
+          margin-bottom: 1.62rem;
+
+          & .buttonLink1 {
+            @include button(11.12rem, 3.5rem, #d4004e, 1rem, flex-end);
+            margin-right: 1.98rem;
+            & img {
+              margin-left: 1.6rem;
+            }
+          }
+          
+          & .buttonLink2 {
+            @include button(11.12rem, 3.5rem, #15b56b, 1rem, flex-end);
+            margin-right: 1.98rem;
+            & img {
+              margin-left: 3rem;
+            }
+          }
+          & .buttonLink3 {
+            @include button(11.12rem, 3.5rem, #9c60bc, 1rem, flex-end);
+             
+            & img {
+              margin-left: 1.2rem;
+            }
+          }
+
+          & .buttonLink4 {
+            @include button(11.12rem, 3.5rem, #4267b2, 1rem, flex-end);
+            margin-right: 1.98rem;
+            & img {
+              margin-left: 1.2rem;
+            }
+          }
+
+          & .buttonLink5 {
+            @include button(11.12rem, 3.5rem, #1ca1f2, 1rem, flex-end);
+            margin-right: 1.98rem;
+            & img {
+              margin-left: 2.2rem;
+            }
+          }
+
+
+          & .buttonLink6 {
+            @include button(11.12rem, 3.5rem, #f73434, 1rem, flex-end);
+            & img {
+              margin-left: 1.7rem;
+            }
+          }
+        }
+  }
+
+}
+
+.companies-image {
+  position: absolute;
+  top: 10rem;
+  right: -6rem;
+}
+
+
+
+    
+ 

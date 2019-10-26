@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+  <title>144LAB</title>
+  <script>
+    (function (d) {
+      var config = {
+        kitId: "ymr4dav",
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement,
+        t = setTimeout(function () {
+          h.className =
+            h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+      h.className += " wf-loading";
+      tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+      tk.async = true;
+      tk.onload = tk.onreadystatechange = function () {
+        a = this.readyState;
+        if (f || (a && a != "complete" && a != "loaded")) return;
+        f = true;
+        clearTimeout(t);
+        try {
+          Typekit.load(config);
+        } catch (e) { }
+      };
+      s.parentNode.insertBefore(tk, s);
+    })(document);
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <!---------------
+            ヘッダー
+      ---------------->
+    <header>
+      <div class="header-background">
+        <div class="header">
+          <div class="nav">
+            <a href="index.html" class="nav__logo">
+              <img src="image/main-logo.png" alt="メインロゴ" class="nav__logo-main/> ul.main" />
+            </a>
+            <!---------------
+                      ナビゲーション
+                  ---------------->
+            <ul class="nav__navigation">
+              <li class="nav__navigation__link">
+                <a href="about.html">ABOUT<span>企業情報</span></a>
+              </li>
+              <li class="nav__navigation__line"></li>
+              <li class="nav__navigation__link">
+                <a href="news.html">NEWS<span>ニュース</span></a>
+              </li>
+              <li class="nav__navigation__line"></li>
+              <li class="nav__navigation__link">
+                <a href="service-product.html">SERVICE & PRODUCT<span>サービス&製品情報</span></a>
+              </li>
+              <li class="nav__navigation__line"></li>
+              <li class="nav__navigation__link">
+                <a href="contact.html">CONTACT<span>お問い合わせ</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="catch-copy">
+            <h1 class="catch-copy__main">Light Up<br />Your<br />Science</h1>
+            <p class="catch-copy__sub">
+              - 科学を灯そう -<br /><span>イチヨンヨンラボ</span>
+            </p>
+          </div>
+        </div>
+        <div class="scroll">
+          <img src="image/scroll.png" alt="スクロール" class="scroll__image" />
+        </div>
+      </div>
+    </header>
+
+    <!---------------
+           メイン
+      ---------------->
+    <main class="wrapper">
+      <!---------------
+            企業情報
+        ---------------->
+
+      <div class="about">
+        <div class="about__title">
+          <img src="image/bikkuri.png" alt="びっくりマーク" class="about__title-image" />
+          <h2 class="about__title-text">ABOUT</h2>
+        </div>
+        <p class="about__text">
+          私たちの社会は、10年前、100年前、あるいは1000年前よりも確実に進化しています。科学こそが社会を進化させ、幸せをつくり出したのだと信じています。科学は与えられるものではなく、私たち自身が開拓し、進化させていくものです。144Labは、科学に触れ、さらなる開拓と進化に参加する人々を、ちょっとだけお手伝いします。
+        </p>
+        <div class="about__box">
+          <div class="about__box-title">
+            企業情報<span class="about__box-right"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-----------------
+          サービス＆プロダクト
+        ------------------>
+      <div class="service-about">
+        <div class="service-about__title">
+          <img src="image/bikkuri.png" alt="ビックリマーク" class="service-about__title--image" />
+          <h2 class="service-about__title--text">SERVICE&PRODUCT</h2>
+        </div>
+
+        <!-----------------
+            switchscience
+          ------------------>
+
+        <div class="service-about__introduction">
+          <div class="service-about__introduction-logo">
+            <img src="image/logo-switch_science.png" alt="ロゴ-switchscience"
+              class="service-about__introduction-logo--image" />
+          </div>
+          <div class="service-about__introduction-text">
+            <h3 class="service-about__introduction-text--title">
+              株式会社スイッチサイエンス
+            </h3>
+            <p class="service-about__introduction-text--text">
+              最先端のテクノロジーを、より多くの人々が道具として当たり前に使える世界を目指して活動しています…
+            </p>
+            <a href="#" class="service-about__introduction-text--box">
+              <div class="service-about__introduction-text--box-title">
+                詳しくはこちらへ</div>
+              <img src="image/right-mark-white.png" alt="right-mark"
+                class="service-about__introcuction-text--box-right" />
+            </a>
+          </div>
+        </div>
+        <!-----------------
+            switch education
+          ------------------>
+        <div class="service-about__introduction">
+          <div class="service-about__introduction-text">
+            <h3 class="service-about__introduction-text--title left-side-mg">
+              株式会社スイッチエデュケーション
+            </h3>
+            <p class="service-about__introduction-text--text left-side-mg">
+              すべての子供にSTEM教育を実践することを目的に活動しています。考える、作る、発表するプロセスを…
+            </p>
+            <a href="#" class="service-about__introduction-text--box left-side-mg-md">
+              <div class="service-about__introduction-text--box-title">
+                詳しくはこちらへ</div>
+              <img src="image/right-mark-white.png" alt="right-mark"
+                class="service-about__introcuction-text--box-right" />
+            </a>
+          </div>
+          <div class="service-about__introduction-logo">
+            <img src="image/logo-switch-education.png" alt="ロゴ-switcheducation"
+              class="service-about__introduction-logo--image" />
+          </div>
+        </div>
+
+        <!-----------------
+            うんこボタン
+          ------------------>
+        <div class="service-about__introduction">
+          <div class="service-about__introduction-logo">
+            <img src="image/logo-unko.png" alt="ロゴ-うんこ" class="service-about__introduction-logo--image" />
+          </div>
+          <div class="service-about__introduction-text">
+            <h3 class="service-about__introduction-text--title">
+              うんこボタン
+            </h3>
+            <p class="service-about__introduction-text--text">
+              赤ちゃんのうんちとおしっこの記録ができるボタンです。子育て世代をちょっとした工夫でお手伝いする…
+            </p>
+            <a href="#" class="service-about__introduction-text--box">
+              <div class="service-about__introduction-text--box-title">
+                詳しくはこちらへ</div>
+              <img src="image/right-mark-white.png" alt="right-mark"
+                class="service-about__introcuction-text--box-right" />
+            </a>
+          </div>
+        </div>
+
+        <!-----------------
+              Iot受託開発
+          ------------------>
+        <div class="service-about__introduction">
+          <div class="service-about__introduction-text">
+            <h3 class="service-about__introduction-text--title left-side-mg">
+              uIoT受託開発
+            </h3>
+            <p class="service-about__introduction-text--text left-side-mg">
+              IoT製品の開発には、ソフトウェアからハードウェアまで様々な技術要素に関するノウハウが必要です。...
+            </p>
+            <a href="#" class="service-about__introduction-text--box left-side-mg-md">
+              <div class="service-about__introduction-text--box-title">
+                詳しくはこちらへ</div>
+              <img src="image/right-mark-white.png" alt="right-mark"
+                class="service-about__introcuction-text--box-right" />
+            </a>
+          </div>
+          <div class="service-about__introduction-logo">
+            <img src="image/logo-iot.png" alt="ロゴ-iot" class="service-about__introduction-logo--image" />
+          </div>
+        </div>
+      </div>
+      <!---------------
+                ニュース
+            ---------------->
+      <div class="news">
+        <div class="news__title">
+          <img src="image/bikkuri.png" alt="びっくりマーク" class="news__title-image" />
+          <h2 class="news__title-text">NEWS</h2>
+        </div>
+
+        <div class="news__contents">
+          <div class="news__contents-box">
+            <div class="news__contents-box-title">
+              スイッチエデュケーション
+            </div>
+
+            <p class="news__contents-box-date">2019.4.24</p>
+            <img src="image/shikiri.png" alt="しきり" class="news__contents-box-line" />
+            <p class="news__contents-box-address">
+              株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP
+              SAS（以下InsightSiP….
+            </p>
+            <img src="image/yajirushi.png" alt="しきり" class="news__contents--box-right" />
+          </div>
+          <div class="news__contents-box">
+            <div class="news__contents-box-title-2">
+              144lab
+            </div>
+
+            <p class="news__contents-box-date">2019.4.24</p>
+            <img src="image/shikiri.png" alt="しきり" class="news__contents-box-line" />
+            <p class="news__contents-box-address">
+              株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP
+              SAS（以下InsightSiP….
+            </p>
+            <img src="image/yajirushi.png" alt="しきり" class="news__contents-box-right" />
+          </div>
+
+          <div class="news__contents-box">
+            <div class="news__contents-box-title-3">
+              スイッチサイエンス
+            </div>
+
+            <p class="news__contents-box-date">2019.4.24</p>
+            <img src="image/shikiri.png" alt="しきり" class="news__contents-box-line" />
+            <p class="news__contents-box-address">
+              株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP
+              SAS（以下InsightSiP….
+            </p>
+            <img src="image/yajirushi.png" alt="しきり" class="news__contents--box-right" />
+          </div>
+          <div class="news__contents-box">
+            <div class="news__contents-box-title-4">
+              うんこボタン
+            </div>
+
+            <p class="news__contents-box-date">2019.4.24</p>
+            <img src="image/shikiri.png" alt="しきり" class="news__contents-box-line" />
+            <p class="news__contents-box-address">
+              株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP
+              SAS（以下InsightSiP….
+            </p>
+            <img src="image/yajirushi.png" alt="しきり" class="news__contents--box-right" />
+          </div>
+        </div>
+
+        <div class="news__button">
+          <div class="news__button-text">一覧</div>
+          <img src="image/right-mark-white.png" alt="right-mark" class="news__button-right" />
+        </div>
+      </div>
+    </main>
+
+    <!---------------
+                フッター
+          ---------------->
+    <footer>
+      <div class="footer">
+        <div class="footer__nav">
+          <ul class="footer__navigation">
+            <li class="footer__navigatio-list">
+              <a href="about.html" class="footer__navigation-link">ABOUT </a>
+            </li>
+            <li class="footer__navigation-line"></li>
+            <li class="footer__navigation-list">
+              <a href="news.html" class="footer__navigation-link">NEWS </a>
+            </li>
+            <li class="footer__navigation-line"></li>
+            <li class="footer__navigation-list">
+              <a href="service-product.html" class="footer__navigation-link">SERVICE & PRODUCT</a>
+            </li>
+            <li class="footer__navigation-line"></li>
+            <li class="footer__navigation-list">
+              <a href="contact.html" class="footer__navigation-link">CONTACT </a>
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="footer__share" style="color: white">Share</div>
+        <ul class="footer__socialMedia">
+          <li class="footer__socialMedia"><i class="fab fa-facebook-f fa-2x"></i></li>
+          <li class="footer__socialMedia"><i class="fab fa-twitter fa-2x"></i></li>
+          <li class="footer__socialMedia"><i class="fab fa-line fa-2x"></i></li>
+        </ul>
+        <a href="#" class="footer__facebook-box">
+          <div class="footer__facebook-text">facebookページへ</div>
+          <img src="image/right-mark-black.png" alt="right-mark-black" class="footer__facebook-right">
+        </a>
+        <div class="footer-copyright">
+          © Copyright 144Lab, Inc. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
